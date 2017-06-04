@@ -27,11 +27,11 @@
         <h1><strong>Curriculum Vitae</strong></h1>
       </p>
       <section title="Datos personales">
-      <h2><strong><u>Datos Personales</u></strong></h2>
-      <h3><strong>Nombre:</strong> Giovanni Alexander Coronado Parga</h3>
-      <h3><strong>Edad:</strong> 38 años</h3>
-      <h3><strong>Telefono de contacto:</strong> 314111111</h3>
-      <h3><strong>Direccion de residencia:</strong> Calle 1 con avenida 2 apartamento 303</h3>
+        <h2><strong><u>Datos Personales</u></strong></h2>
+        <h3><strong>Nombre:</strong> Giovanni Alexander Coronado Parga</h3>
+        <h3><strong>Edad:</strong> 38 años</h3>
+        <h3><strong>Telefono de contacto:</strong> 314111111</h3>
+        <h3><strong>Direccion de residencia:</strong> Calle 1 con avenida 2 apartamento 303</h3>
       </section>
     </header>
     <br>
@@ -47,46 +47,74 @@
     <br>
     <section title="Educación">
       <h2><strong><u>Educación</u></strong></h2>
-        <table border="1" cellpadding="5">
-        <tr aling="center">
-          <td>Año</td>
-          <td>Institución</td>
-          <td>Lugar</td>
-          <td>Culmino?</td>
-          <td>Título obtenido</td>
-        </tr>
-        <tr>
-          <td>1996</td>
-          <td>Inem FPS Kennedy</td>
-          <td>Bogotá</td>
-          <td>si</td>
-          <td>Bachiller académico Ciencias y matemáticas</td>
-        </tr>
-        <tr>
-          <td>2003</td>
-          <td>Universidad Distrital FJC Sede Tecnológica</td>
-          <td>Bogotá</td>
-          <td>si</td>
-          <td>Tecnologo en electrónica</td>
-        </tr>
-        <tr>
-          <td>2008</td>
-          <td>Universidad Distrital FJC Sede Tecnológica</td>
-          <td>Bogotá</td>
-          <td>si</td>
-          <td>Ingeniero en telecomunicaciones</td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-
+        <table border="1" cellpadding="5" title="Tabla estudios">
+          <tr aling="center">
+            <td><strong>Año</strong></td>
+            <td><strong>Institución</strong></td>
+            <td><strong>Lugar</strong></td>
+            <td><strong>Culmino?</strong></td>
+            <td><strong>Título obtenido</strong></td>
+          </tr>
+          <tr>
+            <td>1996</td>
+            <td>Inem FPS Kennedy</td>
+            <td>Bogotá</td>
+            <td>si</td>
+            <td>Bachiller académico Ciencias y matemáticas</td>
+          </tr>
+          <tr>
+            <td>2002</td>
+            <td>Universidad Distrital FJC Sede Tecnológica</td>
+            <td>Bogotá</td>
+            <td>si</td>
+            <td>Tecnologo en electrónica</td>
+          </tr>
+          <tr>
+            <td>2007</td>
+            <td>Universidad Distrital FJC Sede Tecnológica</td>
+            <td>Bogotá</td>
+            <td>si</td>
+            <td>Ingeniero en telecomunicaciones</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>Next-U</td>
+            <td>Bogotá</td>
+            <td>no</td>
+            <td>Desarrollo de aplicaciones web</td>
+          </tr>
         </table>
+        <h3><strong>Agregar estudios</strong></h3>
+        <form class="" action="index.html" method="post" title="Agregar estudios">
+          <strong>Año:</strong><input list="año" name="Año" required="">
+            <datalist id="año">
+              <option value="2010"></option>
+              <option value="2011"></option>
+              <option value="2012"></option>
+              <option value="2013"></option>
+              <option value="2014"></option>
+              <option value="2015"></option>
+              <option value="2016"></option>
+              <option value="2017"></option>
+            </datalist>
+          <br>
+          <br><strong>Institución: </strong><input type="text" name="Institucion" value="" required="">
+          <br>
+          <br><strong>Lugar: </strong><textarea name="lugar" rows="3" cols="25"></textarea>
+          <br>
+          <br><strong>Culmino?</strong><input type="radio" name="culmino" value="" title="si">si <input type="radio" name="culmino" value="" title="no">no
+          <br>
+          <br><input type="submit" name="enviar" value="Enviar" title="Enviar">
+        </form>
     </section>
-    <br>
+    <hr>
+    <footer>
+      <ul>
+        <li style="display:inline"><a href="https://www.facebook.com/giovanni.coronado" title="Facebook" style="text-decoration:none">Facebook</a></li>
+        <li style="display:inline"><a href="mailto:geomx78@yahoo.es?subject=feedback"style="text-decoration:none">E-mail</a></li>
+        <li style="display:inline"><strong>Telefono:</strong> 571+2111111</li>
+      </ul>
+    </footer>
 
   </body>
 </html>
